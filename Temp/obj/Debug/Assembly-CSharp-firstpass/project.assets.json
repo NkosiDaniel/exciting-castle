@@ -1,0 +1,106 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Super Tiled2Unity Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "SuperTiled2Unity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Super Tiled2Unity Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Super Tiled2Unity Editor.dll": {}
+        }
+      },
+      "SuperTiled2Unity/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/SuperTiled2Unity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SuperTiled2Unity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Super Tiled2Unity Editor/1.0.0": {
+      "type": "project",
+      "path": "Super Tiled2Unity Editor.csproj",
+      "msbuildProject": "Super Tiled2Unity Editor.csproj"
+    },
+    "SuperTiled2Unity/1.0.0": {
+      "type": "project",
+      "path": "SuperTiled2Unity.csproj",
+      "msbuildProject": "SuperTiled2Unity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Super Tiled2Unity Editor >= 1.0.0",
+      "SuperTiled2Unity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/ayindeabrams/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/ayindeabrams/pixelGameJam/Assembly-CSharp-firstpass.csproj",
+      "projectName": "Assembly-CSharp-firstpass",
+      "projectPath": "/Users/ayindeabrams/pixelGameJam/Assembly-CSharp-firstpass.csproj",
+      "packagesPath": "/Users/ayindeabrams/.nuget/packages/",
+      "outputPath": "/Users/ayindeabrams/pixelGameJam/Temp/obj/Debug/Assembly-CSharp-firstpass/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/ayindeabrams/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "/Users/ayindeabrams/pixelGameJam/Super Tiled2Unity Editor.csproj": {
+              "projectPath": "/Users/ayindeabrams/pixelGameJam/Super Tiled2Unity Editor.csproj"
+            },
+            "/Users/ayindeabrams/pixelGameJam/SuperTiled2Unity.csproj": {
+              "projectPath": "/Users/ayindeabrams/pixelGameJam/SuperTiled2Unity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
