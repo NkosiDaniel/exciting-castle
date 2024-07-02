@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7c9e1fb8957644d22b34789c459c2a79
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - liveCrystal: {fileID: -1800365540, guid: 273a1c171991b44359fc3c53790012e4, type: 3}
+  - deadCrystal: {fileID: 1031365941, guid: 273a1c171991b44359fc3c53790012e4, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
