@@ -13,8 +13,7 @@ public class DialogTrigger : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Player" && !hasSpoken) {
             other.gameObject.GetComponent<DialogManager>().DialogStart(dialogStrings);
-            Debug.Log(other.name);
-            Debug.Log("Works!");
+            Debug.Log(other.name + "\nWorks!");
             hasSpoken = true;
         }
     }

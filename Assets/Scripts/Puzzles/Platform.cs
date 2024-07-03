@@ -38,13 +38,14 @@ public class Platform : MonoBehaviour
 
     private void Update()
     {
+        int index = Mathf.FloorToInt(progress);
         if (pauseTimer > 0f)
         {
             pauseTimer -= Time.deltaTime;
+            mover.position = transforms[index].position;
             return;
         }
 
-        int index = Mathf.FloorToInt(progress);
         int next = index + 1;
         if (next == count)
         {
@@ -65,7 +66,7 @@ public class Platform : MonoBehaviour
             {
                 progress -= count;
             }
-            Vector3.MoveTowards(transforms[index].position, transforms[next].position, 10f);
+            mover.position = Vector3.Lerp(transforms[index].position, transforms[next].position, progress - index);
         }
 
         previousIndex = index;
